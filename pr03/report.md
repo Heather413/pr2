@@ -42,7 +42,7 @@
 **Команда**: `sudo setfacl -m u:carol:r-x /srv/project/code`.
 
 **Вывод getfacl после изменения:**
-```text
+
 # file: srv/project/code
 # owner: alice
 # group: developers
@@ -51,8 +51,6 @@ user:carol:r-x
 group::rwx
 mask::rwx
 other::---
-
-
 
 **Преимущество ACL**: стандартная модель ограничена одним владельцем и одной группой. ACL позволяет гибко назначать разные права любому количеству конкретных пользователей или групп для одного и того же файла.
 
