@@ -2,6 +2,10 @@
 
 ## 1. journalctl — системный журнал
 
+###Создание аудита
+
+![active (running)](screens/image.png)
+
 ### Что зафиксировал журнал о команде sudo cat /etc/shadow
 
 ```
@@ -48,7 +52,6 @@
 -a always,exit -F arch=b64 -S unlink,unlinkat -k file-delete
 -a always,exit -F arch=b64 -S execve -F euid=0 -F auid!=0 -F auid!=-1 -k priv-exec
 ```
-
 ![пункт 28](screens/28.png)
 
 ### Разбор записи SYSCALL
