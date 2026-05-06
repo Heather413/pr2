@@ -2,7 +2,7 @@
 
 ## 1. journalctl — системный журнал
 
-###Создание аудита
+### Создание аудита
 
 ![active (running)](screens/image.png)
 
