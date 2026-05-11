@@ -18,7 +18,6 @@ hQIMA65feYFRquzaAQ//XTn70vs0+cW5BCC3NeoWkZrD+O9pVZfFd8oW9FxwlRMP
 Ux74ngPxmuNSWrsP787E0Jv1uDQvXLJgxNo2jKzRIHwPWrQeuEz9P3T3oj/pXiRh
 CN9Qd0JnDCcS0idZOIfvPikARRvDWsnKp1g6B28vadGLL5vN+Ytq45BDjvP8QSj7
 
-
 ```
 ![ключ(51 строка)](screens/key.png)
 
@@ -44,6 +43,8 @@ CN9Qd0JnDCcS0idZOIfvPikARRvDWsnKp1g6B28vadGLL5vN+Ytq45BDjvP8QSj7
 Что именно проверяет gpg --verify: целостность и подлинность
 
 ## 4. Подпись коммитов
+
+![добавленный ключик](screens/gpg.png)
 
 ![Verified коммит на GitHub](screens/verified-commit.png)
 
