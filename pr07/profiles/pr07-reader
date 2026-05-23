@@ -1,0 +1,9 @@
+#!/bin/bash
+echo '=== Читаю разрешённый файл ==='
+cat /tmp/pr07-allowed.txt 2>&1
+echo '=== Читаю запрещённый файл ==='
+cat /etc/shadow 2>&1
+echo '=== Пишу в разрешённую папку ==='
+echo 'test' > /tmp/pr07-output.txt 2>&1 && echo 'OK' || echo 'DENIED'
+echo '=== Пишу в запрещённую папку ==='
+echo 'test' > /etc/pr07-hack.txt 2>&1 && echo 'OK' || echo 'DENIED'
