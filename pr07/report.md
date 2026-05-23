@@ -71,7 +71,8 @@ enforce: 49, complain: 17
 В режиме `complain` подсистема AppArmor не блокировала действия скрипта, но зафиксировала два факта несанкционированного доступа (события со статусом **`ALLOWED`**), которые нарушали созданный профиль безопасности:
 1.  **Попытку чтения защищённого системного файла:** Скрипт через утилиту `cat` запросил доступ к файлу `/etc/shadow`.
 2.  **Попытку записи в системный каталог:** Скрипт попытался создать и записать данные в файл `/etc/pr07-hack.txt`.
-![Логи AppArmor в режиме complain](screens/f33need.png)
+
+![Логи AppArmor в режиме complain](screens/23need.png)
 
 ### Разбор строки DENIED
 
@@ -84,6 +85,7 @@ enforce: 49, complain: 17
 
 ```
 audit(1779500403.084:5): apparmor="DENIED" operation="open" class="file" profile="/usr/local/bin/pr07-reader" name="/etc/shadow" pid=3386 comm="cat" requested_mask="r" denied_mask="r" fsuid=0
+```
 
 ![скрипт в профиле в enforce](screens/f36.png)
 
