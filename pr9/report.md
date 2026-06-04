@@ -1,0 +1,5 @@
+<!--
+SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
+
+SPDX-License-Identifier: MIT
+-->

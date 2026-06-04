@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 # ПР №7. AppArmor, Capabilities и Docker
 
 ## 1. Linux Capabilities

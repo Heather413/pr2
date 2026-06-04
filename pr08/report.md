@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Kristina Efimova
+SPDX-License-Identifier: MIT
+-->
+
+
 # ПР №8. Следы вредоносного ПО в Linux
 
 ## 1. Что было посажено
