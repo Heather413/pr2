@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
 SPDX-License-Identifier: MIT
 -->
 
-# ПР №10. Лицензирование и open-source compliance
+# ПР №9. Лицензирование и open-source compliance
 
 ## 1. Выбор лицензии
 

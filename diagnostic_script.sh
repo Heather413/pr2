@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
+#
+# SPDX-License-Identifier: MIT
+
 echo "=== ШАГ 1: Поиск подозрительных процессов ==="
 ps auxf
 echo ""

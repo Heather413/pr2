@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 # ПР №2. Нормативная база и анализ CVE
 
 ## 1. Нормативные документы

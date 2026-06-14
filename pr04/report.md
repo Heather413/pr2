@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 # ПР №4. Аудит событий: journalctl и auditd
 
 ## 1. journalctl — системный журнал

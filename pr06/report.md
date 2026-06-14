@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Kristina Efimova <rubymantella413@email.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 # ПР №6. Анализ сетевого трафика: tcpdump и Wireshark
 
 ## 1. Разбор строки tcpdump
