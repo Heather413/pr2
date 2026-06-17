@@ -1,0 +1,22 @@
+[0;1;32m●[0m ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Thu 2026-06-04 20:54:32 UTC; 1 week 5 days ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 1093 (sshd)
+      Tasks: 1 (limit: 4510)
+     Memory: 7.5M
+        CPU: 3.390s
+     CGroup: /system.slice/ssh.service
+             └─1093 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+июн 17 01:00:18 kris sshd[11063]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.1[0m
+июн 17 01:00:21 kris sshd[11063]: Failed password for invalid user rooot from 10.0.2.1 port 65513 ssh2
+июн 17 01:00:27 kris sshd[11063]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+июн 17 01:00:29 kris sshd[11063]: Failed password for invalid user rooot from 10.0.2.1 port 65513 ssh2
+июн 17 01:01:21 kris sshd[11063]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+июн 17 01:01:23 kris sshd[11063]: Failed password for invalid user rooot from 10.0.2.1 port 65513 ssh2
+июн 17 01:01:23 kris sshd[11063]: Connection reset by invalid user rooot 10.0.2.1 port 65513 [preauth]
+июн 17 01:01:23 kris sshd[11063]: [0;1;39m[0;1;31m[0;1;39mPAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.1[0m
+июн 17 01:01:57 kris sshd[11276]: Accepted password for root from 10.0.2.1 port 65532 ssh2
+июн 17 01:01:57 kris sshd[11276]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
